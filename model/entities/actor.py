@@ -2,7 +2,7 @@
 
 from sqlalchemy import Column, String, Integer, Date
 
-from base64 import Base
+from helpers.base import Base
 
 
 class Actor(Base):
